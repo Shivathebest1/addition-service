@@ -34,3 +34,6 @@ jobs:
         with:
           name: my-addition-service.jar
           path: target/*.jar
+
+      - name: Run JAR
+        run: java -jar target/*.jar
